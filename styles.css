@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+   
+}
+
+#section1{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: url(./C4\ photos/girlpic2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+}
+
+#headerS1{
+    width: 100%;
+    height: fit-content;
+    padding-inline: 165.5px;
+    padding-block: 38.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#skilledlogo{
+    height: 27.68400001525879px;
+width: 111.16799926757812px;
+left: 165.79px;
+top: 38.75px;
+}
+
+
+
+#s1dH{
+    width: 600px;
+    height: 143px;
+font-family: 'Poppins', sans-serif;
+font-size: 56px;
+font-weight: 800;
+line-height: 71px;
+letter-spacing: 0px;
+text-align: left;
+color: #13183F;
+}
+#s1dP{
+    height: 84px;
+width: 445px;
+font-family: 'Poppins', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+color: #83869A;
+
+}
+#s1dBtn{
+height: 63px;
+width: 167px;
+background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+border-radius: 31.5px;
+font-size: 18px;
+color: white;
+font-weight: 700;
+border: none;
+margin-top: 11px;
+}
+
+#s1dBtn:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    cursor: pointer;
+}
+
+#section1div{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 29px;
+    padding-inline: 165px;
+}
+
+#btn1{
+    height: 56px;
+width: 167px;
+background-color: #13183F;
+border-radius: 28px;
+font-family: 'Poppins', sans-serif;
+font-size: 18px;
+font-weight: 700;
+color: white;
+border: none;
+}
+
+#btn1:hover{
+    cursor: pointer;
+    background-color: #666CA3;
+}
+
+#girl{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+#section2{
+    height: 888px;
+width: 100%;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-around;
+    align-items: center;
+
+}
+
+#introcard{
+    height: 322px;
+width: 350px;
+border-radius: 15px;
+background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+padding-inline: 32px;
+padding-top: 64px;
+}
+
+#card0H{
+    height: 120px;
+width: 286px;
+font-family: 'Poppins', sans-serif;
+font-weight: 800;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: 0px;
+text-align: left;
+color: white;
+}
+.card{
+    height: 322px;
+width: 350px;
+background: #FFFFFF;
+box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+border-radius: 15px;
+padding-inline: 32px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+position: relative;
+flex-wrap: wrap;
+align-content: center;
+align-items: center;
+}
+.cardH{
+    font-family: 'Poppins', sans-serif;
+font-size: 24px;
+font-weight: 800;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+color: #13183F;
+height: fit-content;
+width: fit-content;
+
+}
+.cardP{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+height: fit-content;
+width: fit-content;
+color: #83869A;
+}
+
+.cardbtn{
+    height: 28px;
+width: 104px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+border: none;
+color: #F74780;
+background-color: white;
+white-space: nowrap;
+
+}
+
+.cardbtn:hover{
+    color: #FFA7C3;
+    cursor: pointer;
+}
+
+
+.cardlogo{
+    height: 56px;
+width: 56px;
+background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+bottom: 290px;
+}
+
+footer{
+    height: 120px;
+width: 100%;
+background-color: #13183F;
+display: flex;
+align-items: center;
+    justify-content: space-around;
+}
+#footerlogo{
+    height: 45px;
+width: 114px;
+}
+#fbtn{
+    height: 63px;
+width: 167px;
+background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+border-radius: 28px;
+font-size: 18px;
+color: white;
+font-weight: 700;
+border: none;
+}
+#fbtn:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    cursor: pointer;
+}
